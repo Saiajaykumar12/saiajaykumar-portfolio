@@ -959,7 +959,7 @@
 
           <!-- EDIT HERE: Bio paragraphs pulled from LinkedIn summary -->
           <p class="about-text">
-            I'm an AI Automation Engineer with 7 months of hands-on production experience building
+            I'm an AI Engineer with 7 months of hands-on production experience building
             agentic systems at Ecowoodies. In that time I went from zero production AI experience
             to shipping five working systems — a LangGraph multi-agent RAG pipeline, a video
             repurposing engine, a natural-language SQL & PDF interface, a content automation
@@ -1109,7 +1109,7 @@
             <span class="timeline-company">Ecowoodies</span>
             <span class="timeline-badge">Production · 5 Systems Shipped</span>
           </div>
-          <div class="timeline-role">AI Automation Engineer</div>
+          <div class="timeline-role">AI Engineer</div>
           <div class="timeline-period">December 2024 – Present · Bengaluru</div>
           <ul class="timeline-bullets">
             <li>
@@ -1236,9 +1236,23 @@
         name: "Education RAG Chatbot",
         desc: "RAG-powered study assistant where users upload any PDF and ask questions in plain English, receiving answers with source citations. Built with LangChain, Groq LLaMA 3.3, FAISS, and Streamlit.",
         tags: ["LangChain", "Groq LLaMA", "FAISS", "RAG", "Streamlit", "Python"],
-        github: "https://github.com/Saiajaykumar12",
+        link: "https://education-rag-chatbot-wooy8ve7nsscu7avtekufs.streamlit.app/",
         icon: "🎓"
       },
+       {
+    icon: "🗄️",
+    name: "SQL AI Chatbot — LangChain",
+    desc: "Natural-language interface over any SQLite database. Ask plain-English questions; LangChain converts them to SQL, runs the query, and returns a human-readable answer.",
+    tags: ["LangChain", "SQLite", "OpenAI GPT", "Python"],
+    link: "https://sql-ai-chatbot-langchain-vvjjwfkxymgvrmjjxekqmg.streamlit.app/"
+    },
+       {
+    icon: "🕸️",
+    name: "LangGraph Agentic RAG",
+    desc: "Autonomous AI agent that decides what to retrieve, reasons over it, and responds — moving beyond basic RAG to true multi-step agentic orchestration with web search fallback.",
+    tags: ["LangGraph", "LangChain", "OpenAI GPT", "Groq LLaMA", "Python"],
+    link: "https://github.com/Saiajaykumar12/langgraph-agentic-rag"
+    },
       {
         name: "Long Video → Short Clips Pipeline",
         desc: "Fully automated n8n workflow that converts long videos into AI-selected highlight clips. Triggers from Google Sheets, transcribes with AssemblyAI, uses Groq LLaMA 3.3 70B to pick the best moments, renders via Shotstack, and uploads to Cloudinary — zero manual editing.",
